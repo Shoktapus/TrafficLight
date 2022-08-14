@@ -8,8 +8,8 @@ import {useState } from 'react';
 const Home = () => {
 	const [ color, setColor] = useState("red");
 	return (
-		<div className="trafficTop">
-		<div id="container">
+		<div className="lightBox">
+		<div className="container">
 			<Light thisColor="red" currentColor={color} setColor={setColor}/>
 			<Light thisColor="yellow" currentColor={color} setColor={setColor}/>
 			<Light thisColor="green" currentColor={color} setColor={setColor}/>
